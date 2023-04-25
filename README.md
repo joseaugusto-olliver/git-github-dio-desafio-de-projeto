@@ -18,3 +18,5 @@
 * git push -u origin master - Enviar
 * git pull - Baixar
 * git clone - Clonar
+
+[Link para para Download do Git](https://git-scm.com/)
