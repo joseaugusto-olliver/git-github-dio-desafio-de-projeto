@@ -1,0 +1,96 @@
+Comandos Básicos
+
+* Linux 
+ls - lista de diretorios
+cd / - Leva pra base do diretorio C:/
+cd.. - Para retroceder
+clear ou Ctrl + L - Limpar o terminal
+mkdir - Criar uma pasta  
+rm -rf + nome da pasta/ - Remover repositorio
+
+
+* windows 
+dir - lista de diretorios
+cd / - Leva pra base do diretorio C:/
+cd.. - Para retroceder
+cls - Limpar o terminal
+mkdir - Criar uma pasta
+del + nome do arquivo - deletar arquivos
+rmdir + nome da pasta /S /Q - Remover repositorio
+
+-------------------------------------------------
+# Git - Sistem de Versionamento
+
+* 3 Objetos
+
+* Blobs - Contém meta dados do Git.
+* Trees - Armazena os Blobs e apontando os 
+tipos diferentes de Blobs que possui o Sha 1
+e o nome, e a arvore irá direcionar e estruturar.
+* Commits - Objeto que vai dar sentido ao que
+estou fazendo, mensagem de auteração.
+
+* Chave SSH
+Chave para conectar dois servidores.
+
+
+* Comandos 
+
+ls - listar repositorios 
+** flag -a - mostra arquivo oculto
+cd + nome da pasta - ir na pasta desejada
+*git init - iniciar 
+
+* configuração inicial
+git config --global(ou local) user.email "email"
+git config --global(ou local) user.name "nome"
+
+git add <arquivo>
+git commit -m "msg" 
+
+git status - status dos arquivos
+
+git push - enviar
+git pull - puxar
+
+
+git clone + url - clonar repositorio
+
+mv + nome do arquivo ./+nome da pasta/ - mover
+arquivo para dentro de uma pasta ou para fora.
+
+
+-------------------------------------------------
+* Ciclo de vida dentro do git
+
+                   Tracked
+
+            Unmodified    Modified     Staged
+
+Untracked ------>--adicionar-arquivo------*
+                >----editar---*
+                              >---stage---*
+          *-----< Remove o arquivo
+                *-------commit------------<
+
+O commit retorna todos os arquivos alterados 
+em staged para Unomified.
+
+* O git vai ter duas versões
+-Remote - Servidor (ex:. Github).
+-Local - Seu Computador.
+
+
+* Reescrever as configurações
+git config --global --unset user.name
+
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
