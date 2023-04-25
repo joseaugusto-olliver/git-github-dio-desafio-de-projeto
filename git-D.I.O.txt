@@ -85,7 +85,19 @@ em staged para Unomified.
 git config --global --unset user.name
 
 -------------------------------------------------
+Processo para enviar para o GitHub
 
+cd 
+git init
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+git status
+git add (pasta)
+git commit -m "msg"
+git log (Ver o commite do projeto)
+git remote add origin (link)
+git branch -M master
+git push -u origin master
 
 
 
